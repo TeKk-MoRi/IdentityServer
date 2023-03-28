@@ -1,0 +1,5 @@
+/api/home
+/api/authentication/login
+/api/authentication/register
+/getssms
+/api/home/index

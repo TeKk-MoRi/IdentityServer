@@ -80,3 +80,16 @@ D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\obj
 D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\obj\Debug\net7.0\IdentityServer.Traditional.pdb
 D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\obj\Debug\net7.0\IdentityServer.Traditional.genruntimeconfig.cache
 D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\obj\Debug\net7.0\ref\IdentityServer.Traditional.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\AutoMapper.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\MediatR.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\StackExchange.Redis.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\UAParser.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\Morteza\MyRep\Identity\IdentityServer\Identity\IdentityServer.Traditional\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
