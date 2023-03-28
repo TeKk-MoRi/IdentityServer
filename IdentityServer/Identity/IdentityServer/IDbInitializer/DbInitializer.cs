@@ -1,4 +1,5 @@
 ﻿using IdentityModel;
+using IdentityServer.Context;
 using IdentityServer.Helper;
 using IdentityServer.Models;
 using Microsoft.AspNetCore.Identity;
@@ -9,11 +10,11 @@ namespace IdentityServer.IDbInitializer
     public class DbInitializer : IDbInitializer
     {
 
-        private readonly IdentityConstants _db;
+        private readonly IdentityContext _db;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-        public DbInitializer(IdentityConstants db, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+        public DbInitializer(IdentityContext db, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _db = db;
             _roleManager = roleManager;
