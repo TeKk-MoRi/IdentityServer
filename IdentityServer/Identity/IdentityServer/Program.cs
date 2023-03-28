@@ -1,4 +1,6 @@
 using IdentityServer.Context;
+using IdentityServer.Helper;
+using IdentityServer.IDbInitializer;
 using IdentityServer.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +18,34 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<IdentityContext>().AddDefaultTokenProviders();
 #endregion
 
+
+#region IoC
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+#endregion
+
 builder.Services.AddRazorPages();
+
+
+#region identityServer
+builder.Services.AddIdentityServer(option =>
+{
+    option.Events.RaiseErrorEvents = true;
+    option.Events.RaiseInformationEvents = true;
+    option.Events.RaiseFailureEvents = true;
+    option.Events.RaiseSuccessEvents = true;
+    option.EmitStaticAudienceClaim = true;
+
+})
+    .AddInMemoryIdentityResources(SD.IdentityResources)
+    .AddInMemoryApiScopes(SD.ApiScopes)
+    .AddInMemoryClients(SD.Cleints)
+    .AddAspNetIdentity<ApplicationUser>()
+    //TODO
+    .AddDeveloperSigningCredential();
+#endregion
+
+
+
 
 
 var app = builder.Build();
@@ -31,9 +60,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+SeedDatabase();
 app.UseRouting();
-
+app.UseIdentityServer();
 app.UseAuthorization();
 
 app.MapRazorPages().RequireAuthorization();
@@ -43,3 +72,13 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+void SeedDatabase()
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        dbInitializer.Initialize();
+    }
+}
