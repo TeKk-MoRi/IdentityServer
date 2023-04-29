@@ -4086,23 +4086,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\morte\\.nuget\\packages\\": {},
+    "C:\\Users\\nejat.m\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\morte\\OneDrive\\Desktop\\Coursify\\IdentityServer\\IdentityServer\\Identity\\IdentityServer\\IdentityServer.csproj",
+      "projectUniqueName": "D:\\Morteza\\MyRep\\Identity\\IdentityServer\\Identity\\IdentityServer\\IdentityServer.csproj",
       "projectName": "IdentityServer",
-      "projectPath": "C:\\Users\\morte\\OneDrive\\Desktop\\Coursify\\IdentityServer\\IdentityServer\\Identity\\IdentityServer\\IdentityServer.csproj",
-      "packagesPath": "C:\\Users\\morte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\morte\\OneDrive\\Desktop\\Coursify\\IdentityServer\\IdentityServer\\Identity\\IdentityServer\\obj\\",
+      "projectPath": "D:\\Morteza\\MyRep\\Identity\\IdentityServer\\Identity\\IdentityServer\\IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\nejat.m\\.nuget\\packages\\",
+      "outputPath": "D:\\Morteza\\MyRep\\Identity\\IdentityServer\\Identity\\IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\morte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nejat.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4172,7 +4172,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
