@@ -475,3 +475,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/IdentityServer/Identity/.vs/Identity/FileContentIndex/71b6c80a-2b08-4223-87fc-af82a15dd222.vsidx
